@@ -1,7 +1,8 @@
-# unsupervised-movie-recommender
-an unsupervides learning based movie recommender and quite a lot of merging and joining of databases. So much that I thougt to rename it either Fun with Pandas or Fun with MERG
+# Unsupervised-Movie-Recommender
+An unsupervides learning based movie recommender performed with PCA, K-Mean and DBSCAN Clustering.
+It also cosists of a lot of merging and joining of databases. So much that I thougt to rename it either: **"Fun with Pandas"** or **"Fun with MERG".**
 
-Unsupervised movie recommender 
+### Unsupervised Movie Recommender 
 
 
 Intro.
