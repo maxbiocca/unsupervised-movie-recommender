@@ -4,29 +4,6 @@ You can use the [editor on GitHub](https://github.com/maxbiocca/unsupervised-mov
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-
-
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 Visualising K mean clusters and BDscan Clusters
 For my movie recommender I set up an unsupervised machine learning algorithm that will elaborate the initial output and produce movie recommendations as a result. 
 I used PCA, K-mean clustering and density based clustering DBscan methods to assess similarity between datapoint, obtaining all in all good results.
@@ -65,6 +42,31 @@ To further highlight the difference I plotted the average vote for each movie ag
 ![dbscan rating](https://user-images.githubusercontent.com/45852059/150121677-ebad5aa6-2536-41ac-b0e2-5c0195d5a7f8.png)
 
 All in all it was a quiet fun example and I believe the results were quite solid. As we all have different preferences structures, it would be definitely be interesting to capture the user feedback on recommendations to associate to each cluster a weight and therefore relative importance to the other clusters to exploit the cluster classification to a greater extend by recommending movies to the users. 
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+
+
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+
 
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
